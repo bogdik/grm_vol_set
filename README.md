@@ -1,3 +1,8 @@
+# Usage
+
+If you want use in python:
+- ```grm_vol_set.py -i <ipaddress> -p <password> -v <Play Volume> -c <Capture Volume>```
+
 # Speakers Volume Settings
 Setting the settings of Chinese speakers AIO E100 1080 ( P-29515 D-2300-1 )
 
