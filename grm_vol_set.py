@@ -82,6 +82,9 @@ def main(argv):
       elif opt in ("-c", "--cap_vol"):
          cap_vol = arg
    if ip:
+     if int(cap_vol)>100 or int(cap_vol)<1 or int(play_vol)>100 or int(play_vol)<1:
+         print('Play Volume 1-100  Capture Volume 1-100')
+         sys.exit()
      if sett(ip,passwd,cap_vol,play_vol)==False:
           if sett(ip,passwd,cap_vol,play_vol)==False:
              print ('error')
